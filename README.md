@@ -4,8 +4,6 @@
 
 拖进去，点一下，出一份报告。**全程离线运行**，不联网、不注册、不上传——账单一步都不会离开你的电脑。
 
-![界面截图](docs/screenshot.png)
-
 ---
 
 ## 这个工具解决什么问题
@@ -161,18 +159,6 @@
 - Windows 10 / 11（64 位）
 - 无需安装 Python 或任何运行环境
 - 磁盘占用约 78 MB（解压后）
-
-## 自己编译
-
-想自己构建，或者想改点东西：
-
-```bash
-python build_exe.py --onedir             # 打包（约 78 MB，功能完整）
-python build_exe.py --onedir --slim      # 再瘦 9 MB，去掉可选的联网接口
-python build_exe.py --zip-only           # 只重新打发布包 zip
-```
-
-源码结构、设计取舍、以及体积为什么压不到更小，见 [DEVELOPMENT.md](DEVELOPMENT.md)。
 
 ## 许可
 
